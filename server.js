@@ -18,16 +18,16 @@ app.use(express.static('public'));
 
 //load application
 app.get('/',routes.index );
+app.get('/api/getLatestTweetsSet',routes.latestTweetsSet );
 
 // Fire it up : start server  ::::>================>broom bromm!!!
 var server = http.listen(port, function(){
   console.log('Express server listening on port ' + port);
 });
-
 // Initialize socket.io
 var io = socket.listen(server);
 
 // Set a stream listener for tweets matching tracking keywords
 twit.stream('statuses/filter',{ track: config.hashtags}, function(stream){
-  streamHandler(stream,io);
+  streamHandler.stream(stream,io);
 });

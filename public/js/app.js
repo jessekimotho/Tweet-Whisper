@@ -245,3 +245,5 @@ function update_epm(epm, svg_area) {
         epm_text.text(epm + ' tweets per minute');
     }
 }
+
+
