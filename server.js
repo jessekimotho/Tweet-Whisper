@@ -7,7 +7,7 @@ var express = require('express'),
     morgan = require('morgan'),             // log requests to the console (express4)
     twit = new twitter(config.twitter_keys), //create nTwitter instance
     streamHandler = require('./utils/streamHandler');
-    port = process.env.PORT || 80,
+    port = process.env.PORT || 8080,
     app = express();
     http = require('http').Server(app)
 

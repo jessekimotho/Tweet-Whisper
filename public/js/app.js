@@ -153,9 +153,9 @@ function wp_action(data, svg_area, silent) {
             .classed('article-label type', true)
             .attr('text-anchor', 'middle')
             .transition()
-            .delay(1000)
+            .delay(3000)
             .style('opacity', 0)
-            .duration(2000)
+            .duration(5000)
             .each('end', function() { no_label = true; })
             .remove();
          d3plus.textwrap()

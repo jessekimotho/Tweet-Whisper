@@ -370,8 +370,11 @@ border-top: 2px solid #4D7E90;
     background-color: #22C8EC;
     border-color: #22C8EC;
 }
+/*body{
+    background-color:#f2f2f2 !important;
+}*/
 body{
-    background-color:#f2f2f2 !important;/*added;*/
+    background-color: #003050 !important;    
 }
 
 div#power-icon {
@@ -385,10 +388,10 @@ div#power-icon {
 #power-icon i {
     padding-top:3px;
 }
-
+/*
 svg {
     background-color:#f2f2f2 !important;
-}
+}*/
 .article-label{
     font-family: 'avertabold',Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
