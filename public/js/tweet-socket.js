@@ -32,9 +32,10 @@ function getLatestTweetsSet(){
 function processTweets(data){
         console.log(data)
          if (data===undefined || data==null){
-             debugger;
+             console.log('unknown data received')
          }
-          var svg_tweet= d3.select("#area svg");
+    else{
+      var svg_tweet= d3.select("#area svg");
            total_tweets+=1;
             if (total_tweets>15){
                  $('#tweet_content .rows .tweet').last().remove();
@@ -61,6 +62,8 @@ function processTweets(data){
             console.log(happy_mood_counter,sad_mood_counter,normal_mood_counter);
             
             wp_action(data,svg_tweet,false);  
+    }
+    
 }
 
 $(function(){
