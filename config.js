@@ -6,7 +6,7 @@ module.exports = {
                 'access_token_key' : '140814315-ZlKLyQNyfPoIKlVh5MeclkcR6xxnD6KA5MrOBRzt',
                 'access_token_secret' : 'liLNTigG1s55m2N5tdLZjzs7XjG4ev08qQvk6yW3ga2aN'
             },
-hashtags: '#leeds,#javascript,#python,#ruby',
+hashtags: '#fuckhillary,#fucktrump,#dumptrump,#nevertrump,#drumpf,#neverhillary,#hillno,#cnn,#foxnews,#funny,#meme,#funnymemes,#trumptrainwreck,#politics,#sillysaturday,#memes,#imnotwithher,#election2016,#clintonnewsnetwork,#freesyria,#blacklivesmatter,#jillnothill,#jillstein,#gogreen,#greenparty,#3rdparty,#voteyourconscience,#president,#liberal,#kappit',
 keywords_analysis:{"abandon":-2,
                         "abandoned":-2,
                         "abandons":-2,
